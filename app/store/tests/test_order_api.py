@@ -23,8 +23,6 @@ def sample_order():
 
 
 def sample_order_detail(product_id, cuantity):
-    """Create and return a sample recipe"""
-
     defaults = {'cuantity': cuantity, 'product': product_id}
     return defaults
 
