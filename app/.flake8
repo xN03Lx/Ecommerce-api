@@ -1,0 +1,7 @@
+[flake8]
+exclude =
+  migrations
+  __pycache__,
+  ./store/models/__init__.py,
+  manage.py,
+  settings.py
