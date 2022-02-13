@@ -63,7 +63,7 @@ python manage.py runserver
 "product": product_id,
 "cuantity": int
 }
-] }
+] }  
 **PUT** `update order` [/api/orders/:id/](#) paramaters:
 {
 "details" : [
