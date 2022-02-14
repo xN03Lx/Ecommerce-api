@@ -33,30 +33,30 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+
 # API endpoints
 
-## Auth
-
-`create user` [/api/users/create/](#)  
- `get token` [/api/users/token/](#)
+## URL
+[https://ntoo.pythonanywhere.com/api/](https://ntoo.pythonanywhere.com/api/)  
 
 ## Auth
 
-**POST** `create user` [/api/users/create/](#)  
-**POST** `get token` [/api/users/token/](#)
+`create user` [/api/user/create/](https://ntoo.pythonanywhere.com/api/user/create/)  
+ `get token` [/api/user/token/](https://ntoo.pythonanywhere.com/api/user/token/)
+
 
 ## Product
 
-**POST** `create product` [/api/products/](#)  
- **PUT** `update product` [/api/products/:id/](#)  
- **GET** `get all products` [/api/products/](#)  
- **GET** `retrieve product` [/api/products/:id/](#)  
- **DELETE** `delete product` [/api/products/:id/](#)  
-**PUT** `set stock of product` [/api/products/:id/stock/](#) paramaters: { "stock": int}
+**POST** `create product` [/api/products/](https://ntoo.pythonanywhere.com/api/products/)  
+ **PUT** `update product` [/api/products/:id/](https://ntoo.pythonanywhere.com/api/products/)  
+ **GET** `get all products` [/api/products/](https://ntoo.pythonanywhere.com/api/products/)  
+ **GET** `retrieve product` [/api/products/:id/](https://ntoo.pythonanywhere.com/api/products/)  
+ **DELETE** `delete product` [/api/products/:id/](https://ntoo.pythonanywhere.com/api/products/)  
+**PUT** `set stock of product` [/api/products/:id/stock/](https://ntoo.pythonanywhere.com/api/products/) paramaters: { "stock": int}
 
 ## Order
 
-**POST** `create order` [/api/orders/](#) paramaters:
+**POST** `create order` [/api/orders/](https://ntoo.pythonanywhere.com/api/orders/) paramaters:
 {
 "details" : [
 {
@@ -64,7 +64,7 @@ python manage.py runserver
 "cuantity": int
 }
 ] }  
-**PUT** `update order` [/api/orders/:id/](#) paramaters:
+**PUT** `update order` [/api/orders/:id/](https://ntoo.pythonanywhere.com/api/orders/) paramaters:
 {
 "details" : [
 {
@@ -72,7 +72,7 @@ python manage.py runserver
 "cuantity": int
 }
 ] }  
- **GET** `get all orders` [/api/orders/](#)  
- **GET** `retrieve order` [/api/orders/:id/](#)  
- **DELETE** `delete order` [/api/orders/:id/](#)  
- **DELETE** `delete detail` [/api/orders/:id/details/:detail_id](#)
+ **GET** `get all orders` [/api/orders/](https://ntoo.pythonanywhere.com/api/orders/)  
+ **GET** `retrieve order` [/api/orders/:id/](https://ntoo.pythonanywhere.com/api/orders/)  
+ **DELETE** `delete order` [/api/orders/:id/](https://ntoo.pythonanywhere.com/api/orders/)  
+ **DELETE** `delete detail` [/api/orders/:id/details/:detail_id](https://ntoo.pythonanywhere.com/api/orders/)
